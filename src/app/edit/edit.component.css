@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(204,204,204,1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    height: 100px;
+}
+
+input, textarea {
+    border-radius: 25px;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #505355;
+    font-family: 'Work Sans', sans-serif;
+    resize: none;
+}
+
+button {
+    width: 400px;
+    background: #505355;
+    padding: 5px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-top: 20px;
+
+}
+
+h4 {
+    margin-top: 0;
+    color: #505355;
+}
+
+button:hover {
+    background: #5BECD8;
+    cursor: pointer;
+}
+
+label {
+    color: #1ECEFD;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #bbb;
+}
+
+a:hover {
+    color: #5BECD8;
+}
+
+.messageReturn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+

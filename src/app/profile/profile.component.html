@@ -1,0 +1,12 @@
+<body>
+  <main>
+    <img src='../assets/IMG_7258.jpg'>
+    <div class="info">
+        <h3 class="name">{{ currentUser.name }}</h3>
+        <p class="contact">{{ currentUser.contactInfo }}</p>
+        <p class="bio">{{ currentUser.bio }}</p>
+    </div>
+
+    <button (click)="goToEdit()">Edit</button>
+  </main>
+</body>
