@@ -19,7 +19,7 @@ export class EditComponent implements OnInit {
 
   updateProfile(form): any {
     this.profileService.setUserProfile(form.value.name, form.value.contact, form.value.bio);
-    this.message = "Changes have been successfully submitted!"
+    this.message = "Changes have been saved successfully!"
   }
 
 }
