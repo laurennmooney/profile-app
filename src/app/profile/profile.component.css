@@ -38,12 +38,12 @@ img {
 }
 
 .info {
-    border-top: 3px #1ECEFD dashed;
+    border-top: 5px #1ECEFD solid;
     width: 100%;
 }
 
 .name {
-    margin-bottom: 0;
+    margin: 10px 0 0 0;
     font-family: 'Merriweather', serif;
     font-size: 25px;
 }
