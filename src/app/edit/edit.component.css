@@ -32,6 +32,10 @@ input, textarea {
     resize: none;
 }
 
+input:focus, textarea:focus {
+    border: 2px solid #1ECEFD;
+}
+
 button {
     width: 400px;
     background: #505355;
